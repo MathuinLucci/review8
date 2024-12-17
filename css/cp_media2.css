@@ -14,8 +14,23 @@
 
 /* Media Styles */
 
+audio, video {
+   display: block;
+   width: 95%;
+   margin: 20px auto;
 
+}
 
 
 /* Track Styles */
 
+::cue {
+   background:transparent;
+   text-shadow: black 1px 1px 2px;
+   color: rgb(255, 177, 66);
+   font:1.2em serif;
+}
+
+::cue(.Title) {
+   font: 2.5em serif;
+}
