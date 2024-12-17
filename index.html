@@ -7,8 +7,8 @@
       Review Assignment
 
       Cinema Penguin Fred Astaire Biography Page
-      Author: 
-      Date:   
+      Author: Matt Parisano
+      Date:   12/17/2024
 
       Filename:   cp_astaire.html
 
@@ -19,12 +19,14 @@
    <title>Cinema Penguin: Fred Astaire (1899 - 1987)</title>
    <link href="./css/cp_base2.css" rel="stylesheet" />
    <link href="./css/cp_styles2.css" rel="stylesheet" />
-    
+   <link href="./css/cp_animate2.css" rel="stylesheet" />
+
 </head>
+
 
 <body>
    <header>
-      <img src="cp_logo2.png" alt="Cinema Penguin" id="logoimg" />
+      <img src="./media/cp_logo2.png" alt="Cinema Penguin" id="logoimg" />
       <nav class="horizontal" id="topLinks">
          <ul>
             <li><a href="#">movies</a></li>
@@ -126,7 +128,13 @@
                contemporaries admired Astaire's lyricism and phrasing.
                Irving Berlin felt him to be the equal of Jolson or
                Crosby. The clip below comes from the song
-               <cite>Ev'ry Night at Seven</cite> from <cite>Royal Wedding</cite>.</p>         
+               <cite>Ev'ry Night at Seven</cite> from <cite>Royal Wedding</cite>.</p>
+               <audio controls>
+                  <source src="./media/cp_song.mp3" type="audio/mp3" />
+                  <source src="./media/cp_song.ogg" type="audio/ogg" />
+
+                  <p><em>Upgrade your browser to HTML5</em></p>
+               </audio>
                
       </aside>
             
@@ -137,43 +145,52 @@
                anyone look good. The clip below is from <cite>Royal
                Wedding</cite> where his partner was ... a hat rack.
          </p>  
+
+         <video controls poster="./media/cp_poster.png">
+            <source src="./media/cp_hatrack.mp4" type="video/mp4" />
+            <source src="./media/cp_hatrack.webm" type="video/webm" />
+            <p><em>
+               Upgrade your browser to HMTL5 <!--Which obviously stands for Hit Me in The Leg 5times-->
+            </em></p>
+            <track kind="Movie Captions" label="Dance Captions" src="./media/cp_captions2.vtt" default/>
        
-             
+         </video>
+              
       </aside> 
    </section>  
    
    <nav class="vertical">
-      <img src="cp_photo3.png" alt="" />
-         <ul>
-            <li class="lTitle">Fred Astaire</li>
-            <li><a href="#">Biography</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Film List</a></li>
-            <li><a href="#">Video Clips</a></li>
-            <li><a href="#">Audio Clips</a></li>
-            <li><a href="#">Stills</a></li>
-            <li><a href="#">DVD Releases</a></li>
+      <img src="./media/cp_photo3.png" alt="" />
+      <ul>
+         <li class="lTitle">Fred Astaire</li>
+         <li><a href="#">Biography</a></li>
+         <li><a href="#">Articles</a></li>
+         <li><a href="#">Film List</a></li>
+         <li><a href="#">Video Clips</a></li>
+         <li><a href="#">Audio Clips</a></li>
+         <li><a href="#">Stills</a></li>
+         <li><a href="#">DVD Releases</a></li>
 
-            <li class="lTitle">The Art of the Musical</li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Top 20 Musicals</a></li>
-            <li><a href="#">The Great Dancers</a></li>
-            <li><a href="#">Broadway on Film</a></li>
-            <li><a href="#">Soundtracks</a></li>
+         <li class="lTitle">The Art of the Musical</li>
+         <li><a href="#">Articles</a></li>
+         <li><a href="#">Top 20 Musicals</a></li>
+         <li><a href="#">The Great Dancers</a></li>
+         <li><a href="#">Broadway on Film</a></li>
+         <li><a href="#">Soundtracks</a></li>
 
-            <li class="lTitle">Musical Bios</li>
-            <li><a href="#">Fred Astaire</a></li>
-            <li><a href="#">Leslie Caron</a></li>
-            <li><a href="#">Cyd Charisse</a></li>
-            <li><a href="#">Bing Crosby</a></li>
-            <li><a href="#">Vera Ellen</a></li>
-            <li><a href="#">Judy Garland</a></li>
-            <li><a href="#">Howard Keel</a></li>
-            <li><a href="#">Gene Kelly</a></li>
-            <li><a href="#">Donald O'Connor</a></li>
-            <li><a href="#">Jane Powell</a></li>
-            <li><a href="#">Debbie Reynolds</a></li>
-         </ul>
+         <li class="lTitle">Musical Bios</li>
+         <li><a href="#">Fred Astaire</a></li>
+         <li><a href="#">Leslie Caron</a></li>
+         <li><a href="#">Cyd Charisse</a></li>
+         <li><a href="#">Bing Crosby</a></li>
+         <li><a href="#">Vera Ellen</a></li>
+         <li><a href="#">Judy Garland</a></li>
+         <li><a href="#">Howard Keel</a></li>
+         <li><a href="#">Gene Kelly</a></li>
+         <li><a href="#">Donald O'Connor</a></li>
+         <li><a href="#">Jane Powell</a></li>
+         <li><a href="#">Debbie Reynolds</a></li>
+      </ul>
    </nav>
 
    <footer>
